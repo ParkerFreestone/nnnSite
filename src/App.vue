@@ -24,6 +24,7 @@ body {
   background-color: #1F2937;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -50,7 +51,7 @@ a {
 }
 
 a:hover {
-  color: #7C3AED;
+  color: #af81ff;
 }
 
 .text-white {
@@ -70,22 +71,24 @@ a:hover {
 }
 
 .bg-purple {
+  background-color: #7C3AED;
+}
+
+.bg-dark {
   background-color: #111827;
 }
 
 .container {
+  height: 60vh;
   padding: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
   font-size: 3rem;
-}
-
-.wavecheck {
-  margin-bottom: -5px;
 }
 
 .right {
@@ -96,6 +99,10 @@ h2 {
 
 .ml-10 {
   margin-left: 3rem;
+}
+
+.text-lg {
+  font-size: 1.4rem;
 }
 
 </style>
